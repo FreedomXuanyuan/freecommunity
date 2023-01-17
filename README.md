@@ -10,3 +10,6 @@
 ###### 增加一个六级标题添加测试git修改
 ## 使用的组件或者工具
 ##### https://v3.bootcss.com/ bootstrap
+[GitHub API 用户授权 OAuth](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app)
+
+[绘图工具 visual paradigm](https://www.visual-paradigm.com/cn/)
