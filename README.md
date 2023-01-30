@@ -15,3 +15,13 @@
 [GitHub API 用户授权 OAuth](https://docs.github.com/en/developers/apps/building-oauth-apps/creating-an-oauth-app)
 
 [绘图工具 visual paradigm](https://www.visual-paradigm.com/cn/)
+
+## 快捷键
+使用shift+Enter直接创建新的一行
+
+## 解决accesstoken 安全令牌的相关问题  
+"message": "Must specify access token via Authorization header. ”
+Request request = new Request.Builder()
+.url("https://api.github.com/user")
+.header("Authorization","token "+accessToken)
+.build();
