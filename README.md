@@ -41,3 +41,4 @@ CREATE CACHED TABLE "PUBLIC"."USER"(
 
 
 ```
+ID 自增复制的ddl稍有错误
