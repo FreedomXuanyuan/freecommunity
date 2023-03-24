@@ -27,3 +27,17 @@ Request request = new Request.Builder()
 .url("https://api.github.com/user")
 .header("Authorization","token "+accessToken)
 .build();
+
+## 用户表的创建
+```mysql //h2
+CREATE CACHED TABLE "PUBLIC"."USER"(
+    "ID" INT DEFAULT PRIMARY KEY NOT NULL ,
+    "ACCOUNT_ID" VARCHAR(100),
+    "NAME" VARCHAR(50),
+    "TOKEN" CHAR(36),
+    "GMT_CREATE" BIGINT,
+    "GMT_MODIFIED" BIGINT
+)
+
+
+```
